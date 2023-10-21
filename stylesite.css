@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: darkblue;
+    
+}
+
+h1{
+    font-size: 38px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px 80px 0 80px;
+    background-image: linear-gradient(-90deg, #5574eF, #000000);
+}
+
+header div{
+    margin: auto;
+    margin-left: 0;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 0 20px;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#secundaria{
+margin-left: 1580px;
+display: flex;
+}
+
+#inicio{
+   
+    padding: 10px 40px;
+    background-image: linear-gradient(-90deg, #5574eF, #000000);
+}
+
+#inicio div{
+    
+    padding-right: 0px;
+}
+
+#inicio div p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    background-image: linear-gradient(-90deg, #5574eF, #000000);
+    
+}
+
+#sobre div{
+    width: 300px;
+}
+
+#sobre div h1{
+    margin: 10px 0;
+    font-size: 30px;
+    color: #5574eF;
+}
+
+#sobre div p{
+    color: #5574eF;
+}
+#sobre div img{
+    width: 100px;
+    height: 100px;
+}
+#creditos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 650px;
+    background-image: linear-gradient(90deg,  #637eec ,#1c43dd);
+    padding: 0 30px;
+}
+#creditos div{
+    text-align: center;
+}
+#creditos div h1{
+    margin-bottom: 40px;
+}
+#creditos div table, th,td{
+    border: 2px solid #000;
+   border-collapse:collapse ;
+   padding: 11px 50px ;
+}
+#comu{
+    width: 550px;
+height: 300px;
+}
+#terceiro{
+    width: 200px;
+    height: 200px;
+}
+#ola{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    background-image: linear-gradient(-90deg, #5574eF, #000000);
+    
+}
+
+#ola div{
+    width: 300px;
+    
+}
+
+#ola div h1{
+    margin: 10px 0;
+    font-size: 30px;
+    color: #fff;    
+}
+
+#ola div p{
+    color: #fff;
+}
+#ola div img{
+    width: 100px;
+    height: 100px;
+}
+#mais{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    background-image: linear-gradient(90deg,  #637eec ,#1c43dd );
+    
+}
+
+#mais div{
+    width: 300px;
+}
+
+#mais div h1{
+    margin: 10px 0;
+    font-size: 30px;
+   
+color: #000000;
+}
+
+#mais div p{
+    color: #000000;
+}
+#mais div img{
+    width: 100px;
+    height: 100px;
+}
+#obrigado{
+    color: #5574e5;
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    
+}
+#rodape{
+    display: flex;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#reinicio{
+ text-decoration: none;
+color: black;
+font-size:30px ;
+border-radius: 20px;
+width: 100px;
+height: 50px;
+background-color:  #5574e5;
+border-color: #000;
+}
+#reinicio p{
+    font-size: 20px;
+    color: #fff;
+    }
+
+@media (max-width:1000px) {
+    body{
+        font-size: 12px;
+        
+    }
+    h1{
+        font-size: 19px;
+    }
+    p{
+        font-size: 11px;
+    }
+    #secundaria{
+        display: none;
+    }
+    #creditos{
+        height: 500px;
+        
+    }
+    #creditos div table, th,td{
+        border: 2px solid #000;
+       border-collapse:collapse ;
+       padding: 5px 20px ;
+    }
+        }
+@media (max-width:800px) {
+    body{
+        font-size: 12px;
+        
+    }
+    h1{
+        font-size: 18px;
+    }
+    p{
+        font-size: 10px;
+    }
+    #secundaria{
+        display: none;
+    }
+    #creditos{
+        height: 500px;
+        
+    }
+header{
+    padding:40px 40px 0 40px;
+}
+#mais{
+    justify-self: center;
+    display: flex;
+    vertical-align: middle;
+    background-image: linear-gradient( #5574eF, #000000);
+    
+}
+#comu{
+    width: 550px;
+height: 300px;
+}
+#terceiro{
+    width: 120px;
+    height: 120px;
+}
+#ola div h1{
+    margin: 5px 0;
+    font-size: 20px;
+    color: #fff;
+}
+#mais div h1{
+    margin: 5px 0;
+    font-size: 20px;
+    color:  #5574ef;
+}
+#sobre div h1{
+    margin: 5px 0;
+    font-size: 20px;
+    color:  #5574ef;;
+}
+#sobre{ 
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+
+
+}
+#mais{
+display: flex;
+flex-direction: column;
+height: 800px;
+}
+#ola{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+#obrigado{
+    color: #5574e5;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 8px;
+} 
+#reinicio{
+    text-decoration: none;
+   font-size:30px ;
+   border-radius: 10px;
+   width: 100px;
+   height: 50px;
+   background-color:  #5574e5;
+
+}
+#reinicio p{
+font-size: 20px;
+color: #fff;
+}
+
+}
