@@ -153,7 +153,7 @@ height: 300px;
     align-items: center;
     text-align: center;
     height: 350px;
-    background-image: linear-gradient(-90deg, #5574eF, #000000);
+    background-image: linear-gradient(90deg, #5574eF, #000000);
     
 }
 
@@ -256,7 +256,7 @@ header{
     justify-self: center;
     display: flex;
     vertical-align: middle;
-    background-image: linear-gradient(-90deg, #5574eF, #000000);
+    background-image: linear-gradient(90deg, #5574eF, #000000);
     
 }
 #comu{
