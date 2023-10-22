@@ -275,12 +275,12 @@ height: 300px;
 #mais div h1{
     margin: 5px 0;
     font-size: 20px;
-    color:  #5574ef;
+    color:  #fff;
 }
 #sobre div h1{
     margin: 5px 0;
     font-size: 20px;
-    color:  #5574ef;;
+    color:  #fff;;
 }
 #sobre{ 
     display: flex;
@@ -300,7 +300,7 @@ height: 800px;
     height: 800px;
 }
 #obrigado{
-    color: #5574e5;
+    color: #fff;
     margin-top: 10px;
     font-size: 15px;
     text-align: center;
