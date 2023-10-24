@@ -200,7 +200,7 @@ border-radius: 20px;
 width: 100px;
 height: 50px;
 background-color:  #5574e5;
-border-color: #000;
+border: none;
 }
 #reinicio p{
     font-size: 20px;
