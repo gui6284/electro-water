@@ -151,34 +151,6 @@ height: 300px;
     width: 100px;
     height: 100px;
 }
-#mais{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    height: 350px;
-    background-image: linear-gradient(-90deg, #5574eF, #000000);
-    
-}
-
-#mais div{
-    width: 300px;
-}
-
-#mais div h1{
-    margin: 10px 0;
-    font-size: 30px;
-   
-color: #fff;
-}
-
-#mais div p{
-    color: #fff;
-}
-#mais div img{
-    width: 100px;
-    height: 100px;
-}
 #obrigado{
     color: #fff;
     margin-top: 15px;
@@ -256,13 +228,6 @@ border: none;
 header{
     padding:40px 40px 0 40px;
 }
-#mais{
-    justify-self: center;
-    display: flex;
-    vertical-align: middle;
-    background-image: linear-gradient(-90deg, #5574eF, #000000);
-    
-}
 #comu{
     width: 550px;
 height: 300px;
@@ -295,11 +260,6 @@ height: 300px;
 }
 #sobre p{
     font-size: 10px;
-}
-#mais{
-display: flex;
-flex-direction: column;
-height: 800px;
 }
 #ola{
     display: flex;
