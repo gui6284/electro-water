@@ -41,6 +41,25 @@ nav ul li{
     font-size: 20px;
     
 }
+#idioma{
+    width: 115px;
+    height: 200px;
+   
+}
+#escolha{
+    font-size: 12px;
+    padding: 0px 5px;
+}
+#pais{
+    width: 30px;
+    height: 15px;
+    display: flex;
+    
+
+}
+#pais,p{
+    display: inline-block;
+}
 
 a{
     text-decoration: none;
