@@ -47,18 +47,18 @@ nav ul li{
    
 }
 #escolha{
-    font-size: 12px;
-    padding: 0px 5px;
+    font-size: 13px;
+    
+    
 }
 #pais{
-    width: 30px;
-    height: 15px;
+    width: 35px;
+    height: 20px;
     display: flex;
+    padding: 2px 0px;
+    display: inline-block;
     
 
-}
-#pais,p{
-    display: inline-block;
 }
 
 a{
